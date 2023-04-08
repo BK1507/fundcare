@@ -5,14 +5,16 @@ import App from './App';
 import Login from './login';
 import HomePage from './home';
 import OrganDonation from './organdonatio';
+import Events from './events';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <OrganDonation/>
+  
     <HomePage/>
+    <Login/>
   </React.StrictMode>
 );
 

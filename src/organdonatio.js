@@ -145,7 +145,7 @@ export default function App() {
           <MDBCol>
             
             <MDBDropdown>
-              <MDBDropdownToggle  >Select</MDBDropdownToggle>
+              <MDBDropdownToggle  >Occupation</MDBDropdownToggle>
               <MDBDropdownMenu>
                 <MDBDropdownItem link>Student</MDBDropdownItem>
                 <MDBDropdownItem link>Bussiness</MDBDropdownItem>
@@ -157,19 +157,63 @@ export default function App() {
             
           </MDBCol>
         </MDBRow>
-       
+        <MDBRow className="mb-4">
+          <MDBCol>
+          <MDBDropdown>
+              <MDBDropdownToggle  >Gender</MDBDropdownToggle>
+              <MDBDropdownMenu>
+                <MDBDropdownItem link>Male</MDBDropdownItem>
+                <MDBDropdownItem link>Female</MDBDropdownItem>
+                <MDBDropdownItem link>Other</MDBDropdownItem>
+              </MDBDropdownMenu>
+            </MDBDropdown>
+          </MDBCol>
+          <MDBCol>
+          <MDBDropdown>
+              <MDBDropdownToggle  >Blood Group</MDBDropdownToggle>
+              <MDBDropdownMenu>
+                <MDBDropdownItem link>A+</MDBDropdownItem>
+                <MDBDropdownItem link>A-</MDBDropdownItem>
+                <MDBDropdownItem link>B+</MDBDropdownItem>
+                <MDBDropdownItem link>B-</MDBDropdownItem>
+                <MDBDropdownItem link>O+</MDBDropdownItem>
+                <MDBDropdownItem link>O-</MDBDropdownItem>
+                <MDBDropdownItem link>AB+</MDBDropdownItem>
+                <MDBDropdownItem link>AB-</MDBDropdownItem>
+              </MDBDropdownMenu>
+            </MDBDropdown>
+          </MDBCol>
+          <MDBCol>
+            
+          <MDBInput
+          className="mb-4"
+         
+          id="form3Example3"
+          label="Emergency Contact Name"
+        />
+            
+          </MDBCol>
+        </MDBRow>
+        
+       <MDBRow>
+        <MDBCol>
         <MDBInput
           className="mb-4"
           type="email"
           id="form3Example3"
-          label="Email address"
+          label=" Emergency Contact address"
         />
+        </MDBCol>
+        <MDBCol>
         <MDBInput
           className="mb-4"
           type="password"
           id="form3Example4"
-          label="Password"
+          label="Emergency Contact Address"
         />
+        </MDBCol>
+        </MDBRow>
+        <h6>Organs that I wish to donate:</h6>
          <MDBRow>
           <MDBCol>
         <MDBCheckbox
@@ -244,6 +288,18 @@ export default function App() {
         />
         </MDBCol>
       </MDBRow>
+      <MDBCheckbox
+         
+          id="form3Example5"
+          label="I declare that I am a citizen of india and above 18 years of age"
+         
+        />
+        <MDBCheckbox
+          
+          id="form3Example5"
+          label="I agree to the privacy policy"
+         
+        />
         <MDBBtn type="submit" className='me-1' color='success'>
          Submit
         </MDBBtn>

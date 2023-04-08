@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import OrganDonation from './organdonatio';
+import pic from "./images/bg.png";
 import {
   MDBContainer,
   MDBNavbar,
@@ -88,11 +88,13 @@ export default function App() {
           
           </MDBCollapse>
           </div>
+         
       </MDBContainer>
     </MDBNavbar>
     <div>
-      
-    </div>
+          <img src={pic} width={100} height={100} />
+          </div>
     </MDBContainer>
+
   );
 }
