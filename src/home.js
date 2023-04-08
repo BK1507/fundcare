@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import OrganDonation from './organdonatio';
 import {
   MDBContainer,
   MDBNavbar,
@@ -39,13 +40,13 @@ export default function App() {
           
             <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current="page" href="#">
+                <MDBNavbarLink active aria-current="page" href="./home.js">
                   Home
                 </MDBNavbarLink>
               </MDBNavbarItem>
 
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current="page" href="#">
+                <MDBNavbarLink active aria-current="page" href="">
                   Organ Donation
                 </MDBNavbarLink>
               </MDBNavbarItem>
