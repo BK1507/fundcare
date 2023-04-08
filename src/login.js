@@ -1,4 +1,6 @@
 import React from 'react';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import {
   MDBContainer,
   MDBCol,
@@ -10,7 +12,7 @@ import {
 }
 from 'mdb-react-ui-kit';
 
-function App() {
+function login() {
   return (
     <MDBContainer fluid className="p-3 my-5">
 
@@ -56,4 +58,4 @@ function App() {
   );
 }
 
-export default App;
+export default login;
