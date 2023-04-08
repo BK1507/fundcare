@@ -16,7 +16,7 @@ function login() {
   return (
     <MDBContainer fluid className="p-3 my-5">
 
-      <MDBRow>
+      <MDBRow className=' gradient-custom-4'>
 
         <MDBCol col='10' md='6'>
           <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image" />

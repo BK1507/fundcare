@@ -31,7 +31,7 @@ export default function App() {
     <MDBContainer>
       <div>
       <MDBContainer>
-    <MDBNavbar expand="lg" light bgColor="light">
+    <MDBNavbar expand="lg" light bgColor="light" className=' gradient-custom-4'>
       <MDBContainer fluid>
         <div className="d-flex align-items-start">
           <MDBNavbarBrand href="#">FUNDCARE</MDBNavbarBrand>

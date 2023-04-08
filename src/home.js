@@ -15,6 +15,8 @@ import {
   MDBDropdownMenu,
   MDBDropdownItem,
   MDBCollapse,
+  MDBRow,
+  MDBCol
 } from "mdb-react-ui-kit";
 
 export default function App() {
@@ -22,7 +24,9 @@ export default function App() {
 
   return (
     <MDBContainer>
-    <MDBNavbar expand="lg" light bgColor="light">
+      <MDBRow>
+        <MDBCol>
+    <MDBNavbar expand="lg" light bgColor="light" className=' gradient-custom-4'>
       <MDBContainer fluid>
         <div className="d-flex align-items-start">
           <MDBNavbarBrand href="#">FUNDCARE</MDBNavbarBrand>
@@ -88,12 +92,17 @@ export default function App() {
           
           </MDBCollapse>
           </div>
-         
+          
+          
       </MDBContainer>
     </MDBNavbar>
+    </MDBCol>
+    <MDBCol>
     <div>
-          <img src={pic} width={100} height={100} />
+          <img  src={pic}  />
           </div>
+          </MDBCol>
+    </MDBRow>
     </MDBContainer>
 
   );

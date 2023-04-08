@@ -6,15 +6,15 @@ import Login from './login';
 import HomePage from './home';
 import OrganDonation from './organdonatio';
 import Events from './events';
+import Fundraising from './fundraising';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-  
-    <HomePage/>
-    <Login/>
+    <HomePage/> 
+    
   </React.StrictMode>
 );
 
